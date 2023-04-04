@@ -1,0 +1,19 @@
+{
+    "ss_config": [
+        {
+            "save_name": "box",
+            "save_path": "/doc/book/resources/using/search/",
+            "relative_url": "/manage",
+            "padding": "2px",
+            "view_port": {
+                "width": 1920,
+                "height": 1080
+            },
+            "screenshot_method": {
+                "type": "multi_elements",
+                "top_left_element_selector": "#search-box",
+                "bottom_right_element_selector": "#breadcrumbBar"
+            }
+        }
+    ]
+}

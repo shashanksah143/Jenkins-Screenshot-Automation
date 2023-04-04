@@ -1,0 +1,16 @@
+{
+    "jenkins_version": 2.395,
+    "home_page_url": "http://localhost:8080",
+    "image_format": "png",
+    "user_data": {
+        "login_relative_path": "/login?from=%2F",
+        "username": "Admin",
+        "password": "Jenkins"
+    },
+    "element_selectors": {
+        "login_input_selector": "#j_username",
+        "login_password_selector": ":nth-child(2) > .jenkins-input",
+        "submit_button_selector": ".jenkins-button",
+        "login_validation_selector": "#side-panel"
+    }
+}

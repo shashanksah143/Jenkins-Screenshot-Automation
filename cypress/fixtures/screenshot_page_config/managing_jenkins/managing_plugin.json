@@ -1,0 +1,19 @@
+{
+    "ss_config": [
+        {
+            "save_name": "blueocean-plugins-filtered",
+            "save_path": "/doc/book/resources/blueocean/intro/",
+            "relative_url": "/pluginManager",
+            "padding": "2px",
+            "view_port": {
+                "width": 1000,
+                "height": 800
+            },
+            "screenshot_method": {
+                "type": "multi_elements",
+                "top_left_element_selector": "#side-panel",
+                "bottom_right_element_selector": "#main-panel > form"
+            }
+        }
+    ]
+}
